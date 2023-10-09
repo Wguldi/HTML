@@ -6,24 +6,44 @@
         <meta name="description" content="The HTML sample"
         <meta name="author" content="from internet">
         <link rel="stylesheet" href="css\styles.css">
-
+        <style>
+            .letter{
+                color: rgba(170, 52, 52, 0.801);
+                font-size: 140%;
+                position:relative;
+                top: 5px;
+            }
+        </style>
     </head>
     <body>
-        <div align="centre" id="head-of-page">
-            <h1>Заголовок</h1>
+        <div align="centre" id="head-of-page" 
+        style="background-color: cornflowerblue;">
+            <h1>
+                <span class="letter">З</span>
+                аголовок</h1>
             <hr>
         </div>
-        <div id="content">
-            <h2> Содержание </h2>
-            <div id="side-panel">
-                <h3>Боковая панель</h3>
+        <div id="content"
+        style="background-color: cadetblue;">
+            <h2> 
+                <span class="letter">С</span>
+                одержание </h2>
+            <div id="side-panel" style="float: left;width: 25%;">
+                <h3>
+                    <span class="letter">Б</span>
+                    оковая панель</h3>
             </div>
-            <div id="main-text">
-                <h3>Основной текст</h3>
+            <div id="main-text" style="float: left;">
+                <h3>
+                    <span class="letter">О</span>
+                    сновной текст</h3>
             </div> 
+            <div style="clear: left;"></div>
         </div>
-        <div id="foot-of-page">
-            <h2>Подавал</h2>
+        <div id="foot-of-page" style="background-color: burlywood;">
+            <h2>
+                <span class="letter">П</span>
+                одавал</h2>
         </div>
 
     <script>scr="js\script.js"</script>
